@@ -23,10 +23,8 @@ class BingSearch
   end
 
   def display_result
-    print @result.code
-    print @result.headers
-    print @result.cookies
-    print @result.body
+    puts @result.code
+    puts @result.headers
   end
 
 end
